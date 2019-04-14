@@ -1,0 +1,46 @@
+name: BukkitBasics
+main: me.Nutella.basics.Main
+version: 1.0
+author: Cosmitic
+commands:
+   gamemode:
+      description: Change your gamemode
+      permission: bukkitbasics.gamemode
+      permission-message: You don't have permission
+   fly:
+      description: Toggle flymode
+      permission: bukkitbasics.fly
+      permission-message: You don't have permission
+   heal:
+      description: Heal yourself or another player.
+      permission: bukkitbasics.heal
+      permission-message: You don't have permission
+   tp:
+      description: Teleport to another player.
+      permission: bukkitbasics.teleport
+      permission-message: You don't have permission
+   god:
+      description: Makes you or another player invulnerable to all damage.
+      permission: bukkitbasics.god
+      permission-message: You don't have permission
+   vanish:
+      description: Vanish from all players.
+      permission: bukkitbasics.vanish
+      permission-message: You don't have permission
+
+   tphere:
+      description: Teleport another player to you.
+      permission: bukkitbasics.teleporthere
+      permission-message: You don't have permission
+   sc:
+      description: Talk with other staff.
+      permission: bukkitbasics.staffchat
+      permission-message: You don't have permission
+   setspawn:
+      description: Set the server spawn.
+      permission: bukkitbasics.setspawn
+      permission-message: You don't have permission
+   spawn:
+      description: Teleport to the server spawn.
+      permission: bukkitbasics.spawn
+      permission-message: You don't have permission
